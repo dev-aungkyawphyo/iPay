@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D354C102CAB25EC00C4F1AC /* PasswordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D354C0F2CAB25EC00C4F1AC /* PasswordType.swift */; };
+		1D354C122CAB25F900C4F1AC /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D354C112CAB25F900C4F1AC /* ValidationError.swift */; };
+		1D354C142CAB260600C4F1AC /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D354C132CAB260600C4F1AC /* ValidationService.swift */; };
 		1DC6EC592CA9D17600D5A6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6EC582CA9D17600D5A6C6 /* AppDelegate.swift */; };
 		1DC6EC622CA9D17800D5A6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC6EC612CA9D17800D5A6C6 /* Assets.xcassets */; };
 		1DC6EC652CA9D17800D5A6C6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1DC6EC642CA9D17800D5A6C6 /* Base */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D354C0F2CAB25EC00C4F1AC /* PasswordType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordType.swift; sourceTree = "<group>"; };
+		1D354C112CAB25F900C4F1AC /* ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		1D354C132CAB260600C4F1AC /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
 		1DC6EC552CA9D17600D5A6C6 /* iPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC6EC582CA9D17600D5A6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DC6EC612CA9D17800D5A6C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +65,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D354C0E2CAB25D600C4F1AC /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				1D354C0F2CAB25EC00C4F1AC /* PasswordType.swift */,
+				1D354C112CAB25F900C4F1AC /* ValidationError.swift */,
+				1D354C132CAB260600C4F1AC /* ValidationService.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
 		1DC6EC4C2CA9D17600D5A6C6 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +113,7 @@
 				1DC6EC872CA9DE3500D5A6C6 /* IPayUIComponents */,
 				1DC6EC7A2CA9DBED00D5A6C6 /* Extensions */,
 				1DC6EC782CA9DB6C00D5A6C6 /* Constants.swift */,
+				1D354C0E2CAB25D600C4F1AC /* Validation */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -262,9 +279,12 @@
 				1DC6EC772CA9D84400D5A6C6 /* Storyboarded.swift in Sources */,
 				1DC6EC8B2CA9DE7F00D5A6C6 /* IPayButton.swift in Sources */,
 				1DC6EC8D2CA9DE8E00D5A6C6 /* IPayView.swift in Sources */,
+				1D354C122CAB25F900C4F1AC /* ValidationError.swift in Sources */,
 				1DC6EC912CA9EDD100D5A6C6 /* UITextField+Extensions.swift in Sources */,
+				1D354C142CAB260600C4F1AC /* ValidationService.swift in Sources */,
 				1DC6EC842CA9DDF500D5A6C6 /* RegisterScreenViewController.swift in Sources */,
 				1DC6EC792CA9DB6C00D5A6C6 /* Constants.swift in Sources */,
+				1D354C102CAB25EC00C4F1AC /* PasswordType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
