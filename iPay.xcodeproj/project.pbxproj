@@ -431,6 +431,7 @@
 				DEVELOPMENT_TEAM = S727C47Y77;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iPay/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";

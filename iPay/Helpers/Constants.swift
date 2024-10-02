@@ -9,7 +9,6 @@ import Foundation
 
 enum AssetColor: String {
     case btnTextColor = "BtnTextColor"
-    case primaryBGViewColor = "PrimaryBGViewColor"
     case primaryColor = "PrimaryColor"
     case primaryTextColor = "PrimaryTextColor"
     case primaryViewColor = "PrimaryViewColor"

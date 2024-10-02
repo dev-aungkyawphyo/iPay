@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "ipay-simple.png",
+      "filename" : "unnamed-4.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "ipay-simple 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "ipay-simple 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

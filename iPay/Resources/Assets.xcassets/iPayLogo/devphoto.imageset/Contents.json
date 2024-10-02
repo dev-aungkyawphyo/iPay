@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "ipay-white.png",
+      "filename" : "devphoto.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "ipay-white 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "ipay-white 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

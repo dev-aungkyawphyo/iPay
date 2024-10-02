@@ -3,8 +3,8 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,19 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipay-simple" translatesAutoresizingMaskIntoConstraints="NO" id="Sfb-4B-tJQ">
-                                <rect key="frame" x="56.666666666666657" y="159" width="280" height="160"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPayLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ZIu-82-ROf">
+                                <rect key="frame" x="96.666666666666686" y="139" width="200" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="0ja-Zv-w2A"/>
-                                    <constraint firstAttribute="height" constant="160" id="dli-UH-6Qo"/>
+                                    <constraint firstAttribute="width" secondItem="ZIu-82-ROf" secondAttribute="height" multiplier="1:1" id="7zh-BH-OY3"/>
+                                    <constraint firstAttribute="height" constant="200" id="Nok-hg-LyM"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" name="PrimaryBGViewColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Sfb-4B-tJQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Ydh-DK-Ghy"/>
-                            <constraint firstItem="Sfb-4B-tJQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pue-6L-WAe"/>
+                            <constraint firstItem="ZIu-82-ROf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="Diz-Lg-4is"/>
+                            <constraint firstItem="ZIu-82-ROf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gJB-kA-GYO"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -38,9 +38,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ipay-simple" width="90" height="53.333332061767578"/>
-        <namedColor name="PrimaryBGViewColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
+        <image name="iPayLogo" width="600" height="300"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
