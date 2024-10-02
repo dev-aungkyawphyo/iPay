@@ -90,7 +90,7 @@ class IPayTextField: UITextField {
     private func addVisibleBtn() {
         let visibleBtn = UIButton(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
         visibleBtn.setImage(UIImage(named: "close-eye-icon"), for: .selected)
-        visibleBtn.imageView?.tintColor = .appColor(.primaryBGViewColor)
+        visibleBtn.imageView?.tintColor = .appColor(.primaryTextColor)
         visibleBtn.setImage(UIImage(named: "open-eye-icon"), for: .normal)
         visibleBtn.isSelected = true
         isSecureTextEntry = visibleBtn.isSelected
@@ -107,7 +107,7 @@ class IPayTextField: UITextField {
     private func addImage(image: UIImage) {
         let container = UIView(frame: CGRect(x: 0, y: 0, width: 35, height: 30))
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 20, height: 30))
-        imageView.tintColor = .appColor(.primaryBGViewColor)
+        imageView.tintColor = .appColor(.primaryTextColor)
         imageView.contentMode = .scaleAspectFit
         container.addSubview(imageView)
         container.center = imageView.center

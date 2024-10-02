@@ -11,7 +11,7 @@ class IPayViewController: UIViewController, Storyboarded {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .appColor(.primaryBGViewColor)
+        self.view.backgroundColor = .appColor(.btnTextColor)
     }
 
 }
