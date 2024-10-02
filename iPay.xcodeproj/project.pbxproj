@@ -27,6 +27,17 @@
 		1DC6EC8D2CA9DE8E00D5A6C6 /* IPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6EC8C2CA9DE8E00D5A6C6 /* IPayView.swift */; };
 		1DC6EC8F2CA9DEA600D5A6C6 /* IPayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6EC8E2CA9DEA600D5A6C6 /* IPayImageView.swift */; };
 		1DC6EC912CA9EDD100D5A6C6 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6EC902CA9EDD100D5A6C6 /* UITextField+Extensions.swift */; };
+		1DD90B9E2CADCCAD00DC19F9 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD90B9D2CADCCAD00DC19F9 /* LoginModel.swift */; };
+		1DD90BA02CADCCB800DC19F9 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD90B9F2CADCCB800DC19F9 /* RegisterModel.swift */; };
+		1DD90BA22CADCD0800DC19F9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD90BA12CADCD0800DC19F9 /* LoginViewModel.swift */; };
+		1DD90BA42CADCD1300DC19F9 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD90BA32CADCD1300DC19F9 /* RegisterViewModel.swift */; };
+		1DD90BA72CADCDB000DC19F9 /* Payment.db in Resources */ = {isa = PBXBuildFile; fileRef = 1DD90BA62CADCDB000DC19F9 /* Payment.db */; };
+		1DD90BAE2CADCE1100DC19F9 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD90BA92CADCE1100DC19F9 /* SQLTable.swift */; };
+		1DD90BAF2CADCE1100DC19F9 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD90BAB2CADCE1100DC19F9 /* SQLiteDB.swift */; };
+		1DD90BB02CADCE1100DC19F9 /* SQLiteBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD90BAC2CADCE1100DC19F9 /* SQLiteBase.swift */; };
+		1DD90BB12CADCE1100DC19F9 /* CloudDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD90BAD2CADCE1100DC19F9 /* CloudDB.swift */; };
+		1DD90BB52CADD00500DC19F9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD90BB32CADD00500DC19F9 /* libsqlite3.tbd */; };
+		1DD90BB62CADD00500DC19F9 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD90BB42CADD00500DC19F9 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +63,18 @@
 		1DC6EC8C2CA9DE8E00D5A6C6 /* IPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPayView.swift; sourceTree = "<group>"; };
 		1DC6EC8E2CA9DEA600D5A6C6 /* IPayImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPayImageView.swift; sourceTree = "<group>"; };
 		1DC6EC902CA9EDD100D5A6C6 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		1DD90B9D2CADCCAD00DC19F9 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		1DD90B9F2CADCCB800DC19F9 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		1DD90BA12CADCD0800DC19F9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1DD90BA32CADCD1300DC19F9 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		1DD90BA62CADCDB000DC19F9 /* Payment.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Payment.db; sourceTree = "<group>"; };
+		1DD90BA92CADCE1100DC19F9 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		1DD90BAA2CADCE1100DC19F9 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		1DD90BAB2CADCE1100DC19F9 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		1DD90BAC2CADCE1100DC19F9 /* SQLiteBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteBase.swift; sourceTree = "<group>"; };
+		1DD90BAD2CADCE1100DC19F9 /* CloudDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudDB.swift; sourceTree = "<group>"; };
+		1DD90BB32CADD00500DC19F9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1DD90BB42CADD00500DC19F9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD90BB52CADD00500DC19F9 /* libsqlite3.tbd in Frameworks */,
+				1DD90BB62CADD00500DC19F9 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +105,7 @@
 			children = (
 				1DC6EC572CA9D17600D5A6C6 /* iPay */,
 				1DC6EC562CA9D17600D5A6C6 /* Products */,
+				1DD90BB22CADD00500DC19F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +134,8 @@
 		1DC6EC6C2CA9D37F00D5A6C6 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1DD90BA52CADCD3400DC19F9 /* Resource */,
+				1DD90BA82CADCDC200DC19F9 /* Thirdparties */,
 				1DC6EC742CA9D82B00D5A6C6 /* IPayViewController.swift */,
 				1DC6EC762CA9D84400D5A6C6 /* Storyboarded.swift */,
 				1DC6EC872CA9DE3500D5A6C6 /* IPayUIComponents */,
@@ -121,6 +149,8 @@
 		1DC6EC6D2CA9D38A00D5A6C6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1DD90B9D2CADCCAD00DC19F9 /* LoginModel.swift */,
+				1DD90B9F2CADCCB800DC19F9 /* RegisterModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -138,6 +168,8 @@
 		1DC6EC6F2CA9D39E00D5A6C6 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				1DD90BA12CADCD0800DC19F9 /* LoginViewModel.swift */,
+				1DD90BA32CADCD1300DC19F9 /* RegisterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -195,6 +227,35 @@
 				1DC6EC8E2CA9DEA600D5A6C6 /* IPayImageView.swift */,
 			);
 			path = IPayUIComponents;
+			sourceTree = "<group>";
+		};
+		1DD90BA52CADCD3400DC19F9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1DD90BA62CADCDB000DC19F9 /* Payment.db */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1DD90BA82CADCDC200DC19F9 /* Thirdparties */ = {
+			isa = PBXGroup;
+			children = (
+				1DD90BAA2CADCE1100DC19F9 /* Bridging-Header.h */,
+				1DD90BAD2CADCE1100DC19F9 /* CloudDB.swift */,
+				1DD90BAC2CADCE1100DC19F9 /* SQLiteBase.swift */,
+				1DD90BAB2CADCE1100DC19F9 /* SQLiteDB.swift */,
+				1DD90BA92CADCE1100DC19F9 /* SQLTable.swift */,
+			);
+			path = Thirdparties;
+			sourceTree = "<group>";
+		};
+		1DD90BB22CADD00500DC19F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD90BB42CADD00500DC19F9 /* libsqlite3.0.tbd */,
+				1DD90BB32CADD00500DC19F9 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +320,7 @@
 				1DC6EC622CA9D17800D5A6C6 /* Assets.xcassets in Resources */,
 				1DC6EC812CA9DDBD00D5A6C6 /* LoginScreen.storyboard in Resources */,
 				1DC6EC652CA9D17800D5A6C6 /* Base in Resources */,
+				1DD90BA72CADCDB000DC19F9 /* Payment.db in Resources */,
 				1DC6EC862CA9DE0000D5A6C6 /* RegisterScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,16 +336,24 @@
 				1DC6EC7C2CA9DC2600D5A6C6 /* UIColor+Extensions.swift in Sources */,
 				1DC6EC892CA9DE6900D5A6C6 /* IPayTextField.swift in Sources */,
 				1DC6EC7F2CA9DDB100D5A6C6 /* LoginScreenViewController.swift in Sources */,
+				1DD90BB02CADCE1100DC19F9 /* SQLiteBase.swift in Sources */,
 				1DC6EC752CA9D82B00D5A6C6 /* IPayViewController.swift in Sources */,
+				1DD90B9E2CADCCAD00DC19F9 /* LoginModel.swift in Sources */,
+				1DD90BAF2CADCE1100DC19F9 /* SQLiteDB.swift in Sources */,
 				1DC6EC8F2CA9DEA600D5A6C6 /* IPayImageView.swift in Sources */,
 				1DC6EC772CA9D84400D5A6C6 /* Storyboarded.swift in Sources */,
+				1DD90BA42CADCD1300DC19F9 /* RegisterViewModel.swift in Sources */,
+				1DD90BAE2CADCE1100DC19F9 /* SQLTable.swift in Sources */,
+				1DD90BA22CADCD0800DC19F9 /* LoginViewModel.swift in Sources */,
 				1DC6EC8B2CA9DE7F00D5A6C6 /* IPayButton.swift in Sources */,
 				1DC6EC8D2CA9DE8E00D5A6C6 /* IPayView.swift in Sources */,
 				1D354C122CAB25F900C4F1AC /* ValidationError.swift in Sources */,
 				1DC6EC912CA9EDD100D5A6C6 /* UITextField+Extensions.swift in Sources */,
 				1D354C142CAB260600C4F1AC /* ValidationService.swift in Sources */,
+				1DD90BA02CADCCB800DC19F9 /* RegisterModel.swift in Sources */,
 				1DC6EC842CA9DDF500D5A6C6 /* RegisterScreenViewController.swift in Sources */,
 				1DC6EC792CA9DB6C00D5A6C6 /* Constants.swift in Sources */,
+				1DD90BB12CADCE1100DC19F9 /* CloudDB.swift in Sources */,
 				1D354C102CAB25EC00C4F1AC /* PasswordType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationcollections.iPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iPay/Helpers/Thirdparties/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -473,6 +544,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycreationcollections.iPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iPay/Helpers/Thirdparties/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
