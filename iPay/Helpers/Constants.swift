@@ -17,5 +17,10 @@ enum AssetColor: String {
     case tertiaryTextColor = "TertiaryTextColor"
 }
 
-
+enum Opr: String {
+    case cashIn = "CI"
+    case cashOut = "CO"
+    case transfer = "TR"
+    case unknown = "Un"
+}
 
