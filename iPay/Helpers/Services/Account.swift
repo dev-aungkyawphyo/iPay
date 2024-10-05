@@ -14,9 +14,9 @@ class Account {
         return _id
     }
     
-    private var _username: String
-    var username: String {
-        return _username
+    private var _phoneNo: String
+    var phoneNo: String {
+        return _phoneNo
     }
     
     private var _isAdmin = false
@@ -26,15 +26,15 @@ class Account {
     
     private var _dbManager = DBManager()
     
-    init(_id: Int, _username: String, _isAdmin: Bool) {
+    init(_id: Int, _phoneNo: String, _isAdmin: Bool) {
         self._id = _id
-        self._username = _username
+        self._phoneNo = _phoneNo
         self._isAdmin = _isAdmin
     }
     
     init(userDictionary: [String: Any]) {
         self._id = userDictionary["id"] as? Int ?? 0
-        self._username = userDictionary["username"] as? String ?? ""
+        self._phoneNo = userDictionary["phoneNo"] as? String ?? ""
         self._isAdmin = (userDictionary["isAdmin"] as? Int ?? 0) == 1
     }
     

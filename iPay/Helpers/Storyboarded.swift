@@ -11,6 +11,7 @@ import UIKit
 enum Storyboard: String {
     case login = "LoginScreen"
     case register = "RegisterScreen"
+    case home = "HomeScreen"
     
     var name: String {
         self.rawValue

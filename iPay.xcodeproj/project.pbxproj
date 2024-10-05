@@ -12,6 +12,17 @@
 		1D354C142CAB260600C4F1AC /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D354C132CAB260600C4F1AC /* ValidationService.swift */; };
 		1D3FDF852CB06F2500548752 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3FDF842CB06F2500548752 /* Account.swift */; };
 		1D3FDF872CB0734A00548752 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3FDF862CB0734A00548752 /* Transaction.swift */; };
+		1D3FDF892CB0A6B500548752 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3FDF882CB0A6B500548752 /* HomeScreenViewController.swift */; };
+		1D3FDF8B2CB0A6C800548752 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3FDF8A2CB0A6C800548752 /* HomeScreen.storyboard */; };
+		1D5A43322CB1CD5500765C54 /* MyWalletScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5A43312CB1CD5500765C54 /* MyWalletScreen.storyboard */; };
+		1D5A43342CB1CD8F00765C54 /* MyWalletScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5A43332CB1CD8F00765C54 /* MyWalletScreenViewController.swift */; };
+		1D5A43362CB1CDA100765C54 /* ScannerScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5A43352CB1CDA100765C54 /* ScannerScreenViewController.swift */; };
+		1D5A43382CB1CDAE00765C54 /* ScannerScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5A43372CB1CDAE00765C54 /* ScannerScreen.storyboard */; };
+		1D5A433A2CB1CDBC00765C54 /* RewardScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5A43392CB1CDBC00765C54 /* RewardScreen.storyboard */; };
+		1D5A433C2CB1CDC800765C54 /* RewardScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5A433B2CB1CDC800765C54 /* RewardScreenViewController.swift */; };
+		1D5A433E2CB1CDD400765C54 /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5A433D2CB1CDD400765C54 /* ProfileScreenViewController.swift */; };
+		1D5A43402CB1CDDE00765C54 /* ProfileScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5A433F2CB1CDDE00765C54 /* ProfileScreen.storyboard */; };
+		1D5A43462CB1CF4500765C54 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5A43452CB1CF4500765C54 /* CustomTabBarViewController.swift */; };
 		1DC6EC592CA9D17600D5A6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6EC582CA9D17600D5A6C6 /* AppDelegate.swift */; };
 		1DC6EC622CA9D17800D5A6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC6EC612CA9D17800D5A6C6 /* Assets.xcassets */; };
 		1DC6EC652CA9D17800D5A6C6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1DC6EC642CA9D17800D5A6C6 /* Base */; };
@@ -50,6 +61,17 @@
 		1D354C132CAB260600C4F1AC /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
 		1D3FDF842CB06F2500548752 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		1D3FDF862CB0734A00548752 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		1D3FDF882CB0A6B500548752 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		1D3FDF8A2CB0A6C800548752 /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
+		1D5A43312CB1CD5500765C54 /* MyWalletScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyWalletScreen.storyboard; sourceTree = "<group>"; };
+		1D5A43332CB1CD8F00765C54 /* MyWalletScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWalletScreenViewController.swift; sourceTree = "<group>"; };
+		1D5A43352CB1CDA100765C54 /* ScannerScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerScreenViewController.swift; sourceTree = "<group>"; };
+		1D5A43372CB1CDAE00765C54 /* ScannerScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScannerScreen.storyboard; sourceTree = "<group>"; };
+		1D5A43392CB1CDBC00765C54 /* RewardScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RewardScreen.storyboard; sourceTree = "<group>"; };
+		1D5A433B2CB1CDC800765C54 /* RewardScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardScreenViewController.swift; sourceTree = "<group>"; };
+		1D5A433D2CB1CDD400765C54 /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
+		1D5A433F2CB1CDDE00765C54 /* ProfileScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileScreen.storyboard; sourceTree = "<group>"; };
+		1D5A43452CB1CF4500765C54 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		1DC6EC552CA9D17600D5A6C6 /* iPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC6EC582CA9D17600D5A6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DC6EC612CA9D17800D5A6C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,6 +130,80 @@
 			path = Validation;
 			sourceTree = "<group>";
 		};
+		1D5A432C2CB1C74B00765C54 /* HomeScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D3FDF8A2CB0A6C800548752 /* HomeScreen.storyboard */,
+				1D3FDF882CB0A6B500548752 /* HomeScreenViewController.swift */,
+			);
+			path = HomeScreenModule;
+			sourceTree = "<group>";
+		};
+		1D5A432D2CB1C75E00765C54 /* MyWalletScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D5A43312CB1CD5500765C54 /* MyWalletScreen.storyboard */,
+				1D5A43332CB1CD8F00765C54 /* MyWalletScreenViewController.swift */,
+			);
+			path = MyWalletScreenModule;
+			sourceTree = "<group>";
+		};
+		1D5A432E2CB1C77000765C54 /* ScannerScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D5A43372CB1CDAE00765C54 /* ScannerScreen.storyboard */,
+				1D5A43352CB1CDA100765C54 /* ScannerScreenViewController.swift */,
+			);
+			path = ScannerScreenModule;
+			sourceTree = "<group>";
+		};
+		1D5A432F2CB1C78100765C54 /* RewardScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D5A43392CB1CDBC00765C54 /* RewardScreen.storyboard */,
+				1D5A433B2CB1CDC800765C54 /* RewardScreenViewController.swift */,
+			);
+			path = RewardScreenModule;
+			sourceTree = "<group>";
+		};
+		1D5A43302CB1C78C00765C54 /* ProfileScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				1D5A433F2CB1CDDE00765C54 /* ProfileScreen.storyboard */,
+				1D5A433D2CB1CDD400765C54 /* ProfileScreenViewController.swift */,
+			);
+			path = ProfileScreenModule;
+			sourceTree = "<group>";
+		};
+		1D5A43412CB1CE0200765C54 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1DC6EC7D2CA9DD8100D5A6C6 /* LoginScreenModule */,
+				1DC6EC822CA9DDE100D5A6C6 /* RegisterScreenModule */,
+				1D5A432C2CB1C74B00765C54 /* HomeScreenModule */,
+				1D5A432D2CB1C75E00765C54 /* MyWalletScreenModule */,
+				1D5A432E2CB1C77000765C54 /* ScannerScreenModule */,
+				1D5A432F2CB1C78100765C54 /* RewardScreenModule */,
+				1D5A43302CB1C78C00765C54 /* ProfileScreenModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1D5A43422CB1CED100765C54 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1D5A43412CB1CE0200765C54 /* Modules */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1D5A43432CB1CEDA00765C54 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		1DC6EC4C2CA9D17600D5A6C6 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +242,7 @@
 				1DD90BA82CADCDC200DC19F9 /* Thirdparties */,
 				1DD90BB72CADDEBB00DC19F9 /* Services */,
 				1DC6EC742CA9D82B00D5A6C6 /* IPayViewController.swift */,
+				1D5A43452CB1CF4500765C54 /* CustomTabBarViewController.swift */,
 				1DC6EC762CA9D84400D5A6C6 /* Storyboarded.swift */,
 				1DC6EC872CA9DE3500D5A6C6 /* IPayUIComponents */,
 				1DC6EC7A2CA9DBED00D5A6C6 /* Extensions */,
@@ -168,8 +265,8 @@
 			isa = PBXGroup;
 			children = (
 				1DC6EC632CA9D17800D5A6C6 /* LaunchScreen.storyboard */,
-				1DC6EC7D2CA9DD8100D5A6C6 /* LoginScreenModule */,
-				1DC6EC822CA9DDE100D5A6C6 /* RegisterScreenModule */,
+				1D5A43422CB1CED100765C54 /* Core */,
+				1D5A43432CB1CEDA00765C54 /* General */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -336,12 +433,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5A43382CB1CDAE00765C54 /* ScannerScreen.storyboard in Resources */,
 				1DC6EC732CA9D3FD00D5A6C6 /* Colors.xcassets in Resources */,
 				1DC6EC622CA9D17800D5A6C6 /* Assets.xcassets in Resources */,
 				1DC6EC812CA9DDBD00D5A6C6 /* LoginScreen.storyboard in Resources */,
+				1D3FDF8B2CB0A6C800548752 /* HomeScreen.storyboard in Resources */,
+				1D5A433A2CB1CDBC00765C54 /* RewardScreen.storyboard in Resources */,
 				1DC6EC652CA9D17800D5A6C6 /* Base in Resources */,
 				1DD90BA72CADCDB000DC19F9 /* Payment.db in Resources */,
 				1DC6EC862CA9DE0000D5A6C6 /* RegisterScreen.storyboard in Resources */,
+				1D5A43322CB1CD5500765C54 /* MyWalletScreen.storyboard in Resources */,
+				1D5A43402CB1CDDE00765C54 /* ProfileScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,23 +456,29 @@
 			files = (
 				1DC6EC592CA9D17600D5A6C6 /* AppDelegate.swift in Sources */,
 				1D3FDF852CB06F2500548752 /* Account.swift in Sources */,
+				1D5A43462CB1CF4500765C54 /* CustomTabBarViewController.swift in Sources */,
 				1DC6EC7C2CA9DC2600D5A6C6 /* UIColor+Extensions.swift in Sources */,
 				1DC6EC892CA9DE6900D5A6C6 /* IPayTextField.swift in Sources */,
+				1D5A433E2CB1CDD400765C54 /* ProfileScreenViewController.swift in Sources */,
 				1DC6EC7F2CA9DDB100D5A6C6 /* LoginScreenViewController.swift in Sources */,
 				1DD90BB02CADCE1100DC19F9 /* SQLiteBase.swift in Sources */,
 				1DD90BBB2CADDFED00DC19F9 /* DBManager.swift in Sources */,
 				1DC6EC752CA9D82B00D5A6C6 /* IPayViewController.swift in Sources */,
 				1DD90B9E2CADCCAD00DC19F9 /* LoginModel.swift in Sources */,
+				1D5A433C2CB1CDC800765C54 /* RewardScreenViewController.swift in Sources */,
 				1DD90BAF2CADCE1100DC19F9 /* SQLiteDB.swift in Sources */,
 				1DC6EC8F2CA9DEA600D5A6C6 /* IPayImageView.swift in Sources */,
 				1DC6EC772CA9D84400D5A6C6 /* Storyboarded.swift in Sources */,
 				1DD90BA42CADCD1300DC19F9 /* RegisterViewModel.swift in Sources */,
+				1D3FDF892CB0A6B500548752 /* HomeScreenViewController.swift in Sources */,
 				1DD90BAE2CADCE1100DC19F9 /* SQLTable.swift in Sources */,
+				1D5A43362CB1CDA100765C54 /* ScannerScreenViewController.swift in Sources */,
 				1DD90BA22CADCD0800DC19F9 /* LoginViewModel.swift in Sources */,
 				1DC6EC8B2CA9DE7F00D5A6C6 /* IPayButton.swift in Sources */,
 				1DC6EC8D2CA9DE8E00D5A6C6 /* IPayView.swift in Sources */,
 				1D3FDF872CB0734A00548752 /* Transaction.swift in Sources */,
 				1D354C122CAB25F900C4F1AC /* ValidationError.swift in Sources */,
+				1D5A43342CB1CD8F00765C54 /* MyWalletScreenViewController.swift in Sources */,
 				1DC6EC912CA9EDD100D5A6C6 /* UITextField+Extensions.swift in Sources */,
 				1DD90BB92CADDEF200DC19F9 /* DBService.swift in Sources */,
 				1D354C142CAB260600C4F1AC /* ValidationService.swift in Sources */,

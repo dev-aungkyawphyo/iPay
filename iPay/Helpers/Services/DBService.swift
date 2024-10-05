@@ -17,8 +17,8 @@ class DBService {
         return _isLogined
     }
     
-    func userLogin(username: String, password: String) -> Account? {
-        if let userDict = _dbManager.userLogin(username: username, password: password) {
+    func userLogin(request: LoginRequest) -> Account? {
+        if let userDict = _dbManager.userLogin(request: LoginRequest(phone: request.phone, password: request.password)) {
             let userAccount = Account(userDictionary: userDict)
             _isLogined = true
             return userAccount

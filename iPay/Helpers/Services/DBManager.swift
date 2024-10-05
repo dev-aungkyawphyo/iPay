@@ -25,15 +25,15 @@ class DBManager {
         _db.closeDB()
     }
     
-    func userLogin(username: String, password: String) -> [String: Any]? {
-        let cmd = "SELECT * FROM users WHERE username = '\(username)' AND password = '\(password)'"
+    func userLogin(request: LoginRequest) -> [String: Any]? {
+        let cmd = "SELECT * FROM users WHERE phoneNo = '\(request.phone)' AND password = '\(request.password)'"
         let rows = _db.query(sql: cmd)
         if rows.count == 1 {
             let row: [String: Any] = rows[0]
             let id = row["id"] as? Int ?? 0
-            let username = row["username"] as? String ?? ""
+            let phoneNo = row["phoneNo"] as? String ?? ""
             let isAdmin = row["isAdmin"] as? Int ?? 0
-            return ["id": id, "username": username, "isAdmin": isAdmin]
+            return ["id": id, "phoneNo": phoneNo, "isAdmin": isAdmin]
         }
         return nil
     }
